@@ -1,0 +1,113 @@
+{
+  "BenMod:InvulnerablePower": {
+    "NAME": "无懈可击",
+    "DESCRIPTIONS": [
+      "从本回合开始阻止你接下来 #b",
+      " 回合受到的所有来自敌人的生命值损伤。"
+    ]
+  },
+
+  "BenMod:SpectralPower": {
+    "NAME": "幽冥",
+    "DESCRIPTIONS": [
+      "下回合开始时回复 #b",
+      " 点生命并减少一层，且每受到一次未格挡伤害时会减少一层。"
+    ]
+  },
+
+  "BenMod:SinPower": {
+    "NAME": "罪孽",
+    "DESCRIPTIONS": [
+      "敌人受到的 攻击 伤害会额外增加 #b",
+      " 点。"
+    ]
+  },
+
+  "BenMod:HellFormPower": {
+    "NAME": "地狱形态",
+    "DESCRIPTIONS": [
+      "每回合结束时你将获得 #b",
+      " 层 #y幽冥 。"
+    ]
+  },
+
+  "BenMod:DivinationPower": {
+    "NAME": "占卜",
+    "DESCRIPTIONS": [
+      "每次获得 #y幽冥 时抽 #b",
+      " 张牌。"
+    ]
+  },
+
+  "BenMod:SoulClonePower": {
+    "NAME": "灵魂分身",
+    "DESCRIPTIONS": [
+      "在这个回合，你打出的下 #b",
+      " 张牌会打出两次。"
+    ]
+  },
+
+  "BenMod:WantedPower": {
+    "NAME": "通缉",
+    "DESCRIPTIONS": [
+      "每回合开始时给予随机敌人 #b",
+      " 层 #y罪孽 。"
+    ]
+  },
+
+  "BenMod:PermitRoadPower": {
+    "NAME": "证道",
+    "DESCRIPTIONS": [
+      "每有一次攻击造成未被格挡的伤害，就给予 #b",
+      " 层 #y罪孽 。"
+    ]
+  },
+
+  "BenMod:StunnedPower": {
+    "NAME": "震慑",
+    "DESCRIPTIONS": [
+      "每次获得 #y幽冥 时对所有敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+
+  "BenMod:SoulFlamePower": {
+    "NAME": "魂焰",
+    "DESCRIPTIONS": [
+      "每回合结束时对随机敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+
+  "BenMod:BodyGuardPower": {
+    "NAME": "护身",
+    "DESCRIPTIONS": [
+      "每次受到未被格挡的伤害时，获得 #b",
+      " 点 #y格挡 。"
+    ]
+  },
+
+  "BenMod:GodTravelPower": {
+    "NAME": "神行千里",
+    "DESCRIPTIONS": [
+      "每回合开始时，获得 #b",
+      " 点 #y敏捷 。"
+    ]
+  },
+
+  "BenMod:VirtualMachinePower": {
+    "NAME": "虚拟机",
+    "DESCRIPTIONS": [
+      "在你的回合开始时，使用你所有充能球的被动能力 #b",
+      " 次。"
+    ]
+  },
+
+  "BenMod:IterationPower": {
+    "NAME": "迭代",
+    "DESCRIPTIONS": [
+      "在你的回合开始时， #y激发 你最右侧的充能球，然后 #y生成 一个刚才被 #y激发 的充能球。此操作将执行 #b",
+      " 次。"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "BenMod:BlackHeart": {
+    "NAME": "暗影之心",
+    "FLAVOR": "饱含着人性的黑暗。",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，抽 #b4 张牌。"
+    ]
+  },
+
+  "BenMod:EnergyDrink": {
+    "NAME": "能量饮料",
+    "FLAVOR": "提供满满的活力。",
+    "DESCRIPTIONS": [
+      "每攀爬一层楼层回复 #b1 生命。"
+    ]
+  },
+
+  "BenMod:ConsumerCoupon": {
+    "NAME": "消费券",
+    "FLAVOR": "发钱的目的是促进消费。",
+    "DESCRIPTIONS": [
+      "每当你进入商店房间时，获得 #b50 #y金币 。"
+    ]
+  },
+
+  "BenMod:JudgeOrder": {
+    "NAME": "判官令",
+    "FLAVOR": "来历不明的小玩意，似乎蕴含着奇异的力量。",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，获得 #b3 层 #ybenmod:幽冥 。"
+    ]
+  },
+
+  "BenMod:DevilOrder": {
+    "NAME": "阎君令",
+    "FLAVOR": "这张令牌散发着极其恐怖的威压。",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，获得 #b5 层 #ybenmod:幽冥 。"
+    ]
+  }
+}

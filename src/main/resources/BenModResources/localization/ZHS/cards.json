@@ -1,0 +1,436 @@
+{
+  "BenMod:SharpBlade": {
+    "NAME": "利刃",
+    "DESCRIPTION": "造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 造成 !D! 点伤害。"
+  },
+
+  "BenMod:HardShield": {
+    "NAME": "坚盾",
+    "DESCRIPTION": "获得 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 获得 !B! 点 格挡 。"
+  },
+
+  "BenMod:DeepMaintenance": {
+    "NAME": "深度维护",
+    "DESCRIPTION": " 激发 你最右侧的充能球 NL 并获得 !M! 个充能球栏位。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 激发 你最右侧的充能球 NL 并获得 !M! 个充能球栏位。 NL 消耗 。"
+  },
+
+  "BenMod:Focus": {
+    "NAME": "聚焦",
+    "DESCRIPTION": " 生成 !M! 个 benmod:精神 充能球。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 生成 !M! 个 benmod:精神 充能球。 NL 消耗 。"
+  },
+
+  "BenMod:Firewall": {
+    "NAME": "防火墙",
+    "DESCRIPTION": "获得 !B! 点 格挡 NL 并 生成 !M! 个 benmod:光明 充能球。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 NL 并 生成  !M! 个 benmod:光明 充能球。"
+  },
+
+  "BenMod:FastCharge": {
+    "NAME": "快充",
+    "DESCRIPTION": "你在本场战斗中每 生成 过一个 闪电 充能球，便能获得一点 [B] 。",
+    "UPGRADE_DESCRIPTION": "你在本场战斗中每 生成 过一个 闪电 充能球，便能获得一点 [B] 。",
+    "EXTENDED_DESCRIPTION": [
+      "（共 !M! 点。）"
+    ]
+  },
+
+  "BenMod:WaterCooling": {
+    "NAME": "水冷",
+    "DESCRIPTION": "生成 X 个 冰霜 充能球。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "生成 X+1 个 冰霜 充能球。 NL 消耗 。"
+  },
+
+  "BenMod:Format": {
+    "NAME": "格式化",
+    "DESCRIPTION": " 激发 所有充能球，并获得 !M! 点 集中。 NL 消耗 .",
+    "UPGRADE_DESCRIPTION": " 激发 所有充能球，并获得 !M! 点 集中。 NL 消耗 ."
+  },
+
+  "BenMod:AntiVirus": {
+    "NAME": "杀毒",
+    "DESCRIPTION": "回复 !M! 生命，并 生成 1个 benmod:治愈 充能球。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 回复 !M! 生命，并 生成 1个 benmod:治愈 充能球。 NL 消耗 。"
+  },
+
+  "BenMod:ComputilityImprovement": {
+    "NAME": "算力提升",
+    "DESCRIPTION": "抽 !M! 张牌，并 生成 1个 benmod:睿智 充能球。",
+    "UPGRADE_DESCRIPTION": "抽 !M! 张牌，并 生成 1个 benmod:睿智 充能球。"
+  },
+
+  "BenMod:Supernova": {
+    "NAME": "超新星",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 生成 !M! 个 benmod:毁灭 充能球。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 生成 !M! 个 benmod:毁灭 充能球。"
+  },
+
+  "BenMod:Invulnerable": {
+    "NAME": "无懈可击",
+    "DESCRIPTION": "阻止 !M! 回合内所有来自敌人的生命值损伤。",
+    "UPGRADE_DESCRIPTION": "阻止 !M! 回合内所有来自敌人的生命值损伤。"
+  },
+
+  "BenMod:Missile": {
+    "NAME": "导弹",
+    "DESCRIPTION": "对所有敌人造成  !D! 点伤害。 NL 给予所有敌人 !M! 回合 跟踪锁定 效果。",
+    "UPGRADE_DESCRIPTION": "对所有敌人造成  !D! 点伤害。 NL 给予所有敌人 !M! 回合 跟踪锁定 效果。"
+  },
+
+  "BenMod:PowerOn": {
+    "NAME": "开机",
+    "DESCRIPTION": " 固有 。 NL 获得 !B! 点 格挡 。 NL 抽 !M! 张牌并丢弃抽到的牌中的非能力牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 获得 !B! 点 格挡 。 NL 抽 !M! 张牌并丢弃抽到的牌中的非能力牌。 NL 消耗 。"
+  },
+
+  "BenMod:Crushing": {
+    "NAME": "粉碎",
+    "DESCRIPTION": " 消耗 一张牌。 NL 获得与其耗能相等的 集中 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 消耗 一张牌。 NL 获得与其耗能相等的 集中 。 NL 消耗 。"
+  },
+
+  "BenMod:Strike_Golden": {
+    "NAME": "打击",
+    "DESCRIPTION": "造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。"
+  },
+
+  "BenMod:Defend_Golden": {
+    "NAME": "防御",
+    "DESCRIPTION": "获得 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。"
+  },
+
+  "BenMod:GoldenBody": {
+    "NAME": "金身",
+    "DESCRIPTION": "获得 !M! 层 无实体 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 无实体 。 NL 消耗 。"
+  },
+
+  "BenMod:Condensation": {
+    "NAME": "凝聚",
+    "DESCRIPTION": "造成 !D! 点伤害， NL 给予 !M! 层 虚弱 ， NL 获得2层 benmod:幽冥 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害， NL 给予 !M! 层 虚弱 ， NL 获得2层 benmod:幽冥 。"
+  },
+
+  "BenMod:LayersOfMist": {
+    "NAME": "层层迷雾",
+    "DESCRIPTION": "获得 !M! 次 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 次 !B! 点 格挡 。"
+  },
+
+  "BenMod:GhostFire": {
+    "NAME": "鬼火术",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 获得 !M! 层 benmod:幽冥 。",
+    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 获得 !M! 层 benmod:幽冥 。"
+  },
+
+  "BenMod:RetreatToAdvance": {
+    "NAME": "以退为进",
+    "DESCRIPTION": "如果你没有格挡，获得9点 格挡 ； NL 否则，获得5点 格挡 。",
+    "UPGRADE_DESCRIPTION": "如果你没有格挡，获得12点 格挡 ； NL 否则，获得8点 格挡 。"
+  },
+
+  "BenMod:Prey": {
+    "NAME": "猎魂",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 若 斩杀 ，则获得 [E] [E] 和 !M! 层 benmod:幽冥 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 若 斩杀 ，则获得 [E] [E] 和 !M! 层 benmod:幽冥 。"
+  },
+
+  "BenMod:Trial": {
+    "NAME": "审判",
+    "DESCRIPTION": "给予所有敌人 !M! 层 benmod:罪孽 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "给予所有敌人 !M! 层 benmod:罪孽 。 NL 消耗 。"
+  },
+
+  "BenMod:DeadlyStrike": {
+    "NAME": "致命打击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 benmod:罪孽 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 benmod:罪孽 。"
+  },
+
+  "BenMod:SoulShield": {
+    "NAME": "魂盾",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 获得 !M! 层 benmod:幽冥 。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。 NL 获得 !M! 层 benmod:幽冥 。"
+  },
+
+  "BenMod:SoulShock": {
+    "NAME": "灵魂冲击",
+    "DESCRIPTION": "消耗 !M! 层 benmod:幽冥 ，对所有敌人造成 !M! 次 !D! 点伤害。 NL 给予所有敌人1层 benmod:罪孽 。",
+    "UPGRADE_DESCRIPTION": "消耗 !M! 层 benmod:幽冥 ，对所有敌人造成 !M! 次 !D! 点伤害。 NL 给予所有敌人1层 benmod:罪孽 。"
+  },
+
+  "BenMod:Replacement": {
+    "NAME": "替身术",
+    "DESCRIPTION": " 保留 。 NL 获得1层 无实体 和 !M! 层 benmod:幽冥 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 保留 。 NL 获得1层 无实体 和 !M! 层 benmod:幽冥 。 NL 消耗 。"
+  },
+
+  "BenMod:HellForm": {
+    "NAME": "地狱形态",
+    "DESCRIPTION": "每回合结束时获得 !M! 层 benmod:幽冥 。",
+    "UPGRADE_DESCRIPTION": "每回合结束时获得 !M! 层 benmod:幽冥 。"
+  },
+
+  "BenMod:Visions": {
+    "NAME": "幻视",
+    "DESCRIPTION": "给予所有敌人 X 层 易伤 、 X 层 虚弱 和 X 层 benmod:罪孽 。",
+    "UPGRADE_DESCRIPTION": "给予所有敌人 X+1 层 易伤 、 X+1 层 虚弱 和 X+1 层 benmod:罪孽 。"
+  },
+
+  "BenMod:Throughout": {
+    "NAME": "贯穿",
+    "DESCRIPTION": "造成 !M! 次 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": "造成 !M! 次 !D! 点伤害。"
+  },
+
+  "BenMod:GrongVjug": {
+    "NAME": "夺舍",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 抽 !M! 张牌。"
+  },
+
+  "BenMod:PackBag": {
+    "NAME": "背包整理",
+    "DESCRIPTION": "弃2张牌。 NL 抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "弃2张牌。 NL 抽 !M! 张牌。"
+  },
+
+  "BenMod:Divination": {
+    "NAME": "占卜",
+    "DESCRIPTION": "每次获得 benmod:幽冥 时抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "每次获得 benmod:幽冥 时抽 !M! 张牌。"
+  },
+
+  "BenMod:Stronger": {
+    "NAME": "弥坚",
+    "DESCRIPTION": "获得 !B! 点格挡。 NL 这张牌每被打出一次，在本场战斗中其 格挡 增加 !M! 。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点格挡。 NL 这张牌每被打出一次，在本场战斗中其 格挡 增加 !M! 。"
+  },
+
+  "BenMod:VoodooDoll": {
+    "NAME": "巫毒娃娃",
+    "DESCRIPTION": " 虚无 。 NL 失去 !M! 点生命。 NL 对所有敌人造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": " 虚无 。 NL 失去 !M! 点生命。 NL 对所有敌人造成 !D! 点伤害。"
+  },
+
+  "BenMod:StarAbsorption": {
+    "NAME": "吸星大法",
+    "DESCRIPTION": "当前每有一名敌人，获得 !M! 层 benmod:幽冥 。",
+    "UPGRADE_DESCRIPTION": "当前每有一名敌人，获得 !M! 层 benmod:幽冥 。"
+  },
+
+  "BenMod:SoulClone": {
+    "NAME": "灵魂分身",
+    "DESCRIPTION": "消耗2层 benmod:幽冥 。 NL 在这个回合，你打出的下 !M! 张牌会打出两次。",
+    "UPGRADE_DESCRIPTION": "消耗2层 benmod:幽冥 。 NL 在这个回合，你打出的下 !M! 张牌会打出两次。"
+  },
+
+  "BenMod:SoulUrn": {
+    "NAME": "魂瓮",
+    "DESCRIPTION": "回复 !M! 点生命。 NL 获得2层 benmod:幽冥 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "回复 !M! 点生命。 NL 获得2层 benmod:幽冥 。 NL 消耗 。"
+  },
+
+  "BenMod:Possession": {
+    "NAME": "请灵上身",
+    "DESCRIPTION": "获得与 benmod:幽冥 层数相等的 力量 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得与 benmod:幽冥 层数相等的 力量 。 NL 消耗 。"
+  },
+
+  "BenMod:SoulSlaying": {
+    "NAME": "斩魂术",
+    "DESCRIPTION": "失去4点生命。 NL 获得 !M! 点 敏捷 。",
+    "UPGRADE_DESCRIPTION": "失去4点生命。 NL 获得 !M! 点 敏捷 。"
+  },
+
+  "BenMod:SoulSeed": {
+    "NAME": "魂种",
+    "DESCRIPTION": "消耗1层 benmod:幽冥 。 NL 获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "消耗1层 benmod:幽冥 。 NL 获得 [E] [E] 。"
+  },
+
+  "BenMod:CutWaist": {
+    "NAME": "腰斩",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 每拥有一层 benmod:幽冥 此牌伤害加 !M! 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 每拥有一层 benmod:幽冥 此牌伤害加 !M! 。"
+  },
+
+  "BenMod:HellBridge": {
+    "NAME": "奈何桥",
+    "DESCRIPTION": "将你的能量翻倍。",
+    "UPGRADE_DESCRIPTION": "将你的能量翻倍。"
+  },
+
+  "BenMod:Frame": {
+    "NAME": "落井下石",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果敌人有 虚弱 状态，抽1张牌。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 如果敌人有 虚弱 状态，抽1张牌。"
+  },
+
+  "BenMod:Conceal": {
+    "NAME": "隐匿",
+    "DESCRIPTION": "失去 !M! 点生命。 NL 获得 !B! 点格挡。",
+    "UPGRADE_DESCRIPTION": "失去 !M! 点生命。 NL 获得 !B! 点格挡。"
+  },
+
+  "BenMod:Track": {
+    "NAME": "追踪",
+    "DESCRIPTION": "给予 !M! 层 benmod:罪孽 。",
+    "UPGRADE_DESCRIPTION": "给予 !M! 层 benmod:罪孽 。"
+  },
+
+  "BenMod:Wanted": {
+    "NAME": "通缉",
+    "DESCRIPTION": "每回合开始时给予随机敌人 !M! 层 benmod:罪孽 。",
+    "UPGRADE_DESCRIPTION": "每回合开始时给予随机敌人 !M! 层 benmod:罪孽 。"
+  },
+
+  "BenMod:Channeling": {
+    "NAME": "通灵",
+    "DESCRIPTION": "失去8点生命。 NL 获得 !M! 层 无实体 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "失去8点生命。 NL 获得 !M! 层 无实体 。 NL 消耗 。"
+  },
+
+  "BenMod:PermitRoad": {
+    "NAME": "证道",
+    "DESCRIPTION": "每有一次攻击造成未被格挡的伤害，就给予 !M! 层 benmod:罪孽 。",
+    "UPGRADE_DESCRIPTION": "每有一次攻击造成未被格挡的伤害，就给予 !M! 层 benmod:罪孽 。"
+  },
+
+  "BenMod:Stunned": {
+    "NAME": "震慑",
+    "DESCRIPTION": "每次获得 benmod:幽冥 时对所有敌人造成 !M! 点伤害。",
+    "UPGRADE_DESCRIPTION": "每次获得 benmod:幽冥 时对所有敌人造成 !M! 点伤害。"
+  },
+
+  "BenMod:SoulFlame": {
+    "NAME": "魂焰",
+    "DESCRIPTION": "消耗3层 benmod:幽冥 。 NL 每回合结束时对随机敌人造成 !M! 点伤害。",
+    "UPGRADE_DESCRIPTION": "消耗3层 benmod:幽冥 。 NL 每回合结束时对随机敌人造成 !M! 点伤害。"
+  },
+
+  "BenMod:InSight": {
+    "NAME": "洞悉",
+    "DESCRIPTION": "将一名敌人的 benmod:罪孽 层数翻倍。",
+    "UPGRADE_DESCRIPTION": "将一名敌人的 benmod:罪孽 层数变为三倍。"
+  },
+
+  "BenMod:AllSpiritFormation": {
+    "NAME": "万灵阵",
+    "DESCRIPTION": "将你的 benmod:幽冥 层数翻倍。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "将你的 benmod:幽冥 层数翻倍。 NL 消耗 。"
+  },
+
+  "BenMod:Rebirth": {
+    "NAME": "复生",
+    "DESCRIPTION": " 消耗 1张牌。 NL 获得 !M! 层 benmod:幽冥 。",
+    "UPGRADE_DESCRIPTION": " 消耗 1张牌。 NL 获得 !M! 层 benmod:幽冥 。"
+  },
+
+  "BenMod:DeadRadiation": {
+    "NAME": "死极射线",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL 给予 !M! 层 benmod:罪孽 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL 给予 !M! 层 benmod:罪孽 。"
+  },
+
+  "BenMod:SoulRefining": {
+    "NAME": "炼魂",
+    "DESCRIPTION": "获得 !M! 层 benmod:幽冥 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 benmod:幽冥 。 NL 消耗 。"
+  },
+
+  "BenMod:Retreat": {
+    "NAME": "撤退",
+    "DESCRIPTION": "如果一名敌人的意图是攻击，你获得 !M! 点 敏捷 。",
+    "UPGRADE_DESCRIPTION": "如果一名敌人的意图是攻击，你获得 !M! 点 敏捷 。"
+  },
+
+  "BenMod:Surveillance": {
+    "NAME": "监视",
+    "DESCRIPTION": "消耗 !M! 层 benmod:幽冥 。 NL 造成 !D! 点伤害。 NL 获得 !M! 点 力量 。",
+    "UPGRADE_DESCRIPTION": "消耗 !M! 层 benmod:幽冥 。 NL 造成 !D! 点伤害。 NL 获得 !M! 点 力量 。"
+  },
+
+  "BenMod:ChainStrike": {
+    "NAME": "连环打击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 点 敏捷 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 点 敏捷 。"
+  },
+
+  "BenMod:BloodPact": {
+    "NAME": "血契",
+    "DESCRIPTION": " 虚无 。 NL 失去 !M! 点生命。 NL 永久获得1点最大生命。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "失去 !M! 点生命。 NL 永久获得1点最大生命。 NL 消耗 。"
+  },
+
+  "BenMod:SelfMutilation": {
+    "NAME": "自残",
+    "DESCRIPTION": "增加1张 伤口 到你的手牌。 NL 获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "增加1张 伤口 到你的手牌。 NL 获得 [E] [E] 。"
+  },
+
+  "BenMod:Punishment": {
+    "NAME": "罚罪",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果敌人有 benmod:罪孽 状态，获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 如果敌人有 benmod:罪孽 状态，获得 [E] 。"
+  },
+
+  "BenMod:ShatteredWave": {
+    "NAME": "破灭光波",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 易伤 和 benmod:罪孽 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 易伤 和 benmod:罪孽 。"
+  },
+
+  "BenMod:Incendies": {
+    "NAME": "狱火焚身",
+    "DESCRIPTION": "增加1张 灼伤 到你的手牌。 NL 造成 !D! 点伤害。 NL 获得 !M! 层 benmod:幽冥 。",
+    "UPGRADE_DESCRIPTION": "增加1张 灼伤 到你的手牌。 NL 造成 !D! 点伤害。 NL 获得 !M! 层 benmod:幽冥 。"
+  },
+
+  "BenMod:Absorb": {
+    "NAME": "汲取",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果敌人有 benmod:罪孽 状态，获得2层 benmod:幽冥 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 如果敌人有 benmod:罪孽 状态，获得2层 benmod:幽冥 。"
+  },
+
+  "BenMod:BodyGuard": {
+    "NAME": "护身",
+    "DESCRIPTION": "每次受到未被格挡的伤害时，获得 !M! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": "每次受到未被格挡的伤害时，获得 !M! 点 格挡 。"
+  },
+
+  "BenMod:GodTravel": {
+    "NAME": "神行千里",
+    "DESCRIPTION": "消耗2层 benmod:幽冥 。 NL 每回合开始时，获得 !M! 点 敏捷 。",
+    "UPGRADE_DESCRIPTION": "消耗2层 benmod:幽冥 。 NL 每回合开始时，获得 !M! 点 敏捷 。"
+  },
+
+  "BenMod:DeathBreath": {
+    "NAME": "死神之息",
+    "DESCRIPTION": "造成2次 !D! 点伤害。 NL 获得 !M! 层 benmod:幽冥 。",
+    "UPGRADE_DESCRIPTION": "造成2次 !D! 点伤害。 NL 获得 !M! 层 benmod:幽冥 。"
+  },
+
+  "BenMod:EndlessBlade": {
+    "NAME": "无尽战刃",
+    "DESCRIPTION": "造成 X 次伤害。 NL 初始伤害为 !D! 点，每次攻击后下一次攻击伤害加2。",
+    "UPGRADE_DESCRIPTION": "造成 X+1 次伤害。 NL 初始伤害为 !D! 点，每次攻击后下一次攻击伤害加2。"
+  },
+
+  "BenMod:VirtualMachine": {
+    "NAME": "虚拟机",
+    "DESCRIPTION": "失去 !M! 点 集中 。 NL 在你的回合开始时，使用你所有充能球的被动能力1次。",
+    "UPGRADE_DESCRIPTION": "失去 !M! 点 集中 。 NL 在你的回合开始时，使用你所有充能球的被动能力1次。"
+  },
+
+  "BenMod:Iteration": {
+    "NAME": "迭代",
+    "DESCRIPTION": "获得 !M! 点 集中 。 NL 在你的回合开始时， 激发 你最右侧的充能球，然后 生成 一个刚才被 激发 的充能球。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 点 集中 。 NL 在你的回合开始时， 激发 你最右侧的充能球，然后 生成 一个刚才被 激发 的充能球。"
+  }
+}

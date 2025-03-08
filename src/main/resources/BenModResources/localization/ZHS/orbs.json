@@ -1,0 +1,47 @@
+{
+  "BenMod:Spirit": {
+    "DESCRIPTION": [
+      " #y被动： 在你的回合开始时， NL 失去 #b",
+      " 点生命并获得 #b",
+      " 点 #y集中 。 NL #y激发： 获得 #b",
+      " 点 #y集中 。 NL 精神充能球不受 #y集中 影响。"
+    ],
+    "NAME": "精神"
+  },
+
+  "BenMod:Light": {
+    "DESCRIPTION": [
+      " #y被动： 在你的回合结束时， NL 将这个充能球的 格挡 增加 #b",
+      " 点。 NL #y激发： 获得 #b",
+      " 点 格挡 。 NL 你的下回合开始时 格挡 不会消失。"
+    ],
+    "NAME": "光明"
+  },
+
+  "BenMod:Cure": {
+    "DESCRIPTION": [
+      " #y被动： 在你的回合开始时， NL 回复 #b",
+      " 点生命。 NL #y激发： 回复 #b",
+      " 点生命。 NL 治愈充能球不受 #y集中 影响。"
+    ],
+    "NAME": "治愈"
+  },
+
+  "BenMod:Sagacity": {
+    "DESCRIPTION": [
+      " #y被动： 在你的回合开始时， NL 抽 #b",
+      " 张牌。 NL #y激发： 抽 #b",
+      " 张牌。 NL 治愈充能球不受 #y集中 影响。"
+    ],
+    "NAME": "睿智"
+  },
+
+  "BenMod:Destruction": {
+    "DESCRIPTION": [
+      " #y被动： 在你的回合结束时， NL 对所有敌人造成 #b",
+      " 伤害。 NL #y激发： 对所有敌人造成 #b",
+      " 伤害。"
+    ],
+    "NAME": "毁灭"
+  }
+}

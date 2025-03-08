@@ -1,0 +1,10 @@
+{
+  "modid": "BenMod",
+  "name": "BenMod",
+  "author_list": ["BD"],
+  "description": "本mod添加了一些可能影响平衡的新人物、新卡牌和新遗物。",
+  "version": "0.2.0",
+  "sts_version": "12-18-2022",
+  "mts_version": "3.30.3",
+  "dependencies": ["basemod"]
+}
