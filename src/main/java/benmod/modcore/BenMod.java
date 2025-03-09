@@ -4,6 +4,7 @@ import basemod.helpers.RelicType;
 import basemod.interfaces.*;
 import benmod.cards.*;
 import benmod.characters.SoulWizard;
+import benmod.monsters.RecklessGoblin;
 import benmod.relics.*;
 import com.badlogic.gdx.Gdx;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
@@ -13,6 +14,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.localization.*;
 import com.badlogic.gdx.graphics.Color;
+import com.megacrit.cardcrawl.monsters.MonsterInfo;
 
 import java.nio.charset.StandardCharsets;
 import static benmod.characters.SoulWizard.PlayerColorEnum.BENMOD_GOLDEN;
@@ -145,6 +147,15 @@ public class BenMod implements EditCardsSubscriber, EditStringsSubscriber, EditR
         BaseMod.addCharacter(new SoulWizard(CardCrawlGame.playerName), SoulWizard_BUTTON, SoulWizard_PORTRAIT, Soul_Wizard);
     }
 
+    public void receivePostInitialize() {
+        receiveEditMonsters();
+    }
+
+    private void receiveEditMonsters() {
+        BaseMod.addMonster("BenMod:RecklessGoblin", RecklessGoblin.NAME, () -> new RecklessGoblin(0.0F, 0.0F));
+        BaseMod.addStrongMonsterEncounter("TheCity", new MonsterInfo("BenMod:RecklessGoblin", 1.0F));
+    }
+
     @Override
     public void receiveEditKeywords() {
         Gson gson = new Gson();
@@ -172,5 +183,6 @@ public class BenMod implements EditCardsSubscriber, EditStringsSubscriber, EditR
         BaseMod.loadCustomStringsFile(OrbStrings.class, "BenModResources/localization/" + lang + "/orbs.json");
         BaseMod.loadCustomStringsFile(PowerStrings.class, "BenModResources/localization/" + lang + "/powers.json");
         BaseMod.loadCustomStringsFile(CharacterStrings.class, "BenModResources/localization/" + lang + "/characters.json");
+        BaseMod.loadCustomStringsFile(MonsterStrings.class, "BenModResources/localization/" + lang + "/monsters.json");
     }
 }
