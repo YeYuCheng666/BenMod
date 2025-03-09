@@ -438,5 +438,11 @@
     "NAME": "致命节奏",
     "DESCRIPTION": "每有一次攻击造成未被格挡的伤害，就给予 !M! 层 易伤 。",
     "UPGRADE_DESCRIPTION": "每有一次攻击造成未被格挡的伤害，就给予 !M! 层 易伤 。"
+  },
+
+  "BenMod:MirrorSpell": {
+    "NAME": "镜像法术",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予等同于自己 易伤 和 虚弱 层数的 易伤 和 虚弱 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 给予等同于自己 易伤 和 虚弱 层数的 易伤 和 虚弱 。"
   }
 }
