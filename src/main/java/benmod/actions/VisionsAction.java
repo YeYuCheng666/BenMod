@@ -48,7 +48,11 @@ public class VisionsAction extends AbstractGameAction {
             for(AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
                 this.addToBot(new ApplyPowerAction(mo, p, new VulnerablePower(mo, effect, false), effect, true, AbstractGameAction.AttackEffect.NONE));
                 this.addToBot(new ApplyPowerAction(mo, p, new WeakPower(mo, effect, false), effect, true, AbstractGameAction.AttackEffect.NONE));
-                this.addToBot(new ApplyPowerAction(mo, p, new SinPower(mo, effect), effect, true, AbstractGameAction.AttackEffect.NONE));
+                if (AbstractDungeon.player.hasRelic("BenMod:DemonSlayer")){
+                    this.addToBot(new ApplyPowerAction(mo, p, new SinPower(mo, effect + 1), effect + 1, true, AbstractGameAction.AttackEffect.NONE));
+                }else{
+                    this.addToBot(new ApplyPowerAction(mo, p, new SinPower(mo, effect), effect, true, AbstractGameAction.AttackEffect.NONE));
+                }
             }
 
             if (!this.freeToPlayOnce) {

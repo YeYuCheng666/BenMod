@@ -57,7 +57,11 @@ public class SoulShock extends CustomCard {
             this.addToBot(new DamageAllEnemiesAction(p, this.multiDamage, this.damageTypeForTurn, AbstractGameAction.AttackEffect.NONE));
         }
         for(AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
-            this.addToBot(new ApplyPowerAction(mo, p, new SinPower(mo, 1), 1, true, AbstractGameAction.AttackEffect.NONE));
+            if (AbstractDungeon.player.hasRelic("BenMod:DemonSlayer")){
+                this.addToBot(new ApplyPowerAction(mo, p, new SinPower(mo, 2), 2, true, AbstractGameAction.AttackEffect.NONE));
+            }else{
+                this.addToBot(new ApplyPowerAction(mo, p, new SinPower(mo, 1), 1, true, AbstractGameAction.AttackEffect.NONE));
+            }
         }
     }
 

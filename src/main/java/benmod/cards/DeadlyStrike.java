@@ -2,6 +2,7 @@ package benmod.cards;
 
 import benmod.helpers.ModHelper;
 import benmod.powers.SinPower;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -9,6 +10,7 @@ import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.cards.DamageInfo.DamageType;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import basemod.abstracts.CustomCard;
@@ -49,7 +51,11 @@ public class DeadlyStrike extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         this.addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageType.NORMAL)));
-        this.addToBot(new ApplyPowerAction(m, p, new SinPower(m, this.magicNumber), this.magicNumber));
+        if (AbstractDungeon.player.hasRelic("BenMod:DemonSlayer")){
+            this.addToBot(new ApplyPowerAction(m, p, new SinPower(m, this.magicNumber + 1), this.magicNumber + 1));
+        }else{
+            this.addToBot(new ApplyPowerAction(m, p, new SinPower(m, this.magicNumber), this.magicNumber));
+        }
     }
 
     public AbstractCard makeCopy() {

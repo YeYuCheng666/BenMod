@@ -6,6 +6,7 @@ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
@@ -32,7 +33,11 @@ public class PermitRoadPower extends AbstractPower {
     public void onAttack(DamageInfo info, int damageAmount, AbstractCreature target) {
         if (damageAmount > 0 && target != this.owner && info.type == DamageInfo.DamageType.NORMAL) {
             this.flash();
-            this.addToTop(new ApplyPowerAction(target, this.owner, new SinPower(target, this.amount), this.amount, true));
+            if (AbstractDungeon.player.hasRelic("BenMod:DemonSlayer")){
+                this.addToTop(new ApplyPowerAction(target, this.owner, new SinPower(target, this.amount + 1), this.amount + 1, true));
+            }else{
+                this.addToTop(new ApplyPowerAction(target, this.owner, new SinPower(target, this.amount), this.amount, true));
+            }
         }
 
     }

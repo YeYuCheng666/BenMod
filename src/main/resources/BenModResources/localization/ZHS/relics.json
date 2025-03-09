@@ -37,5 +37,29 @@
     "DESCRIPTIONS": [
       "每场战斗开始时，获得 #b5 层 #ybenmod:幽冥 。"
     ]
+  },
+
+  "BenMod:SoulBell": {
+    "NAME": "摄魂铃",
+    "FLAVOR": "服从即是一切。",
+    "DESCRIPTIONS": [
+      "在你的第三回合开始时，获得 #b3 层 #ybenmod:幽冥 。"
+    ]
+  },
+
+  "BenMod:SoulBanner": {
+    "NAME": "招魂幡",
+    "FLAVOR": "不必反抗，跟着我就对了。",
+    "DESCRIPTIONS": [
+      "受到未格挡伤害时你的 #ybenmod:幽冥 将不会减少。"
+    ]
+  },
+
+  "BenMod:DemonSlayer": {
+    "NAME": "降魔杵",
+    "FLAVOR": "天下妖邪，吾皆诛之。",
+    "DESCRIPTIONS": [
+      "每当你给予敌人 #ybenmod:罪孽 状态时，额外给予 #b1 层 #ybenmod:罪孽 。"
+    ]
   }
 }

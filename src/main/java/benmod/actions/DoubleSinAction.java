@@ -4,6 +4,7 @@ import benmod.powers.SinPower;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 public class DoubleSinAction extends AbstractGameAction {
 
@@ -17,7 +18,11 @@ public class DoubleSinAction extends AbstractGameAction {
     @Override
     public void update() {
         if (this.target != null && this.target.hasPower("BenMod:SinPower")) {
-            this.addToTop(new ApplyPowerAction(this.target, this.source, new SinPower(this.target, this.target.getPower("BenMod:SinPower").amount), this.target.getPower("BenMod:SinPower").amount));
+            if (AbstractDungeon.player.hasRelic("BenMod:DemonSlayer")){
+                this.addToTop(new ApplyPowerAction(this.target, this.source, new SinPower(this.target, this.target.getPower("BenMod:SinPower").amount + 1), this.target.getPower("BenMod:SinPower").amount + 1));
+            }else{
+                this.addToTop(new ApplyPowerAction(this.target, this.source, new SinPower(this.target, this.target.getPower("BenMod:SinPower").amount), this.target.getPower("BenMod:SinPower").amount));
+            }
         }
         this.isDone = true;
     }

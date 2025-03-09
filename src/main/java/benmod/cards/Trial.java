@@ -49,7 +49,11 @@ public class Trial extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         for(AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
-            this.addToBot(new ApplyPowerAction(mo, p, new SinPower(mo, this.magicNumber), this.magicNumber, true, AbstractGameAction.AttackEffect.NONE));
+            if (AbstractDungeon.player.hasRelic("BenMod:DemonSlayer")){
+                this.addToBot(new ApplyPowerAction(mo, p, new SinPower(mo, this.magicNumber + 1), this.magicNumber + 1, true, AbstractGameAction.AttackEffect.NONE));
+            }else{
+                this.addToBot(new ApplyPowerAction(mo, p, new SinPower(mo, this.magicNumber), this.magicNumber, true, AbstractGameAction.AttackEffect.NONE));
+            }
         }
     }
 

@@ -32,7 +32,11 @@ public class WantedPower extends AbstractPower {
 
     public void atStartOfTurn() {
         AbstractMonster randomMonster = AbstractDungeon.getMonsters().getRandomMonster((AbstractMonster)null, true, AbstractDungeon.cardRandomRng);
-        this.addToBot(new ApplyPowerAction(randomMonster, AbstractDungeon.player, new SinPower(randomMonster, this.amount), this.amount));
+        if (AbstractDungeon.player.hasRelic("BenMod:DemonSlayer")){
+            this.addToBot(new ApplyPowerAction(randomMonster, AbstractDungeon.player, new SinPower(randomMonster, this.amount + 1), this.amount + 1));
+        }else{
+            this.addToBot(new ApplyPowerAction(randomMonster, AbstractDungeon.player, new SinPower(randomMonster, this.amount), this.amount));
+        }
     }
 
     public void updateDescription() {
