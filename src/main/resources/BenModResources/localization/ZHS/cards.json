@@ -444,5 +444,17 @@
     "NAME": "镜像法术",
     "DESCRIPTION": "造成 !D! 点伤害。 NL 给予等同于自己 易伤 和 虚弱 层数的 易伤 和 虚弱 。",
     "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 给予等同于自己 易伤 和 虚弱 层数的 易伤 和 虚弱 。"
+  },
+
+  "BenMod:StealFromOthers": {
+    "NAME": "顺手牵羊",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 若目标拥有正数的 力量 ，则获得相同层数的 力量 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 若目标拥有正数的 力量 ，则获得相同层数的 力量 。"
+  },
+
+  "BenMod:MemoryModule": {
+    "NAME": "内存条",
+    "DESCRIPTION": "获得 !M! 个充能球栏位。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 获得 !M! 个充能球栏位。 NL 消耗 。"
   }
 }

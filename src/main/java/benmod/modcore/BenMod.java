@@ -132,6 +132,8 @@ public class BenMod implements EditCardsSubscriber, EditStringsSubscriber, EditR
         BaseMod.addCard(new Iteration());
         BaseMod.addCard(new DeadlyRhythm());
         BaseMod.addCard(new MirrorSpell());
+        BaseMod.addCard(new StealFromOthers());
+        BaseMod.addCard(new MemoryModule());
     }
 
     @Override
