@@ -52,11 +52,7 @@ public class DeadRadiation extends CustomCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         this.addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageType.NORMAL)));
         this.addToBot(new GainBlockAction(p, p, this.block));
-        if (AbstractDungeon.player.hasRelic("BenMod:DemonSlayer")){
-            this.addToBot(new ApplyPowerAction(m, p, new SinPower(m, this.magicNumber + 1), this.magicNumber + 1));
-        }else{
-            this.addToBot(new ApplyPowerAction(m, p, new SinPower(m, this.magicNumber), this.magicNumber));
-        }
+        this.addToBot(new ApplyPowerAction(m, p, new SinPower(m, this.magicNumber), this.magicNumber));
     }
 
     public AbstractCard makeCopy() {

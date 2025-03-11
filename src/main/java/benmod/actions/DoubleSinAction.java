@@ -18,11 +18,7 @@ public class DoubleSinAction extends AbstractGameAction {
     @Override
     public void update() {
         if (this.target != null && this.target.hasPower("BenMod:SinPower")) {
-            if (AbstractDungeon.player.hasRelic("BenMod:DemonSlayer")){
-                this.addToTop(new ApplyPowerAction(this.target, this.source, new SinPower(this.target, this.target.getPower("BenMod:SinPower").amount + 1), this.target.getPower("BenMod:SinPower").amount + 1));
-            }else{
-                this.addToTop(new ApplyPowerAction(this.target, this.source, new SinPower(this.target, this.target.getPower("BenMod:SinPower").amount), this.target.getPower("BenMod:SinPower").amount));
-            }
+            this.addToTop(new ApplyPowerAction(this.target, this.source, new SinPower(this.target, this.target.getPower("BenMod:SinPower").amount), this.target.getPower("BenMod:SinPower").amount));
         }
         this.isDone = true;
     }

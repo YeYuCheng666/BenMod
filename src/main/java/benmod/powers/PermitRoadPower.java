@@ -33,11 +33,7 @@ public class PermitRoadPower extends AbstractPower {
     public void onAttack(DamageInfo info, int damageAmount, AbstractCreature target) {
         if (damageAmount > 0 && target != this.owner && info.type == DamageInfo.DamageType.NORMAL) {
             this.flash();
-            if (AbstractDungeon.player.hasRelic("BenMod:DemonSlayer")){
-                this.addToTop(new ApplyPowerAction(target, this.owner, new SinPower(target, this.amount + 1), this.amount + 1, true));
-            }else{
-                this.addToTop(new ApplyPowerAction(target, this.owner, new SinPower(target, this.amount), this.amount, true));
-            }
+            this.addToTop(new ApplyPowerAction(target, this.owner, new SinPower(target, this.amount), this.amount, true));
         }
 
     }

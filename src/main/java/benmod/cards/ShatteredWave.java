@@ -50,11 +50,7 @@ public class ShatteredWave extends CustomCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         this.addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageType.NORMAL)));
         this.addToBot(new ApplyPowerAction(m, p, new VulnerablePower(m, this.magicNumber, false), this.magicNumber));
-        if (AbstractDungeon.player.hasRelic("BenMod:DemonSlayer")){
-            this.addToBot(new ApplyPowerAction(m, p, new SinPower(m, this.magicNumber + 1), this.magicNumber + 1));
-        }else{
-            this.addToBot(new ApplyPowerAction(m, p, new SinPower(m, this.magicNumber), this.magicNumber));
-        }
+        this.addToBot(new ApplyPowerAction(m, p, new SinPower(m, this.magicNumber), this.magicNumber));
     }
 
     public AbstractCard makeCopy() {

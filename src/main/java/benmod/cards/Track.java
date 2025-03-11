@@ -24,7 +24,7 @@ public class Track extends CustomCard {
     private static final CardType TYPE = CardType.SKILL;
     private static final CardColor COLOR = BENMOD_GOLDEN;
     private static final CardRarity RARITY = CardRarity.COMMON;
-    private static final CardTarget TARGET = CardTarget.SELF;
+    private static final CardTarget TARGET = CardTarget.ENEMY;
 
     public Track() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
@@ -44,11 +44,7 @@ public class Track extends CustomCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        if (AbstractDungeon.player.hasRelic("BenMod:DemonSlayer")){
-            this.addToBot(new ApplyPowerAction(m, p, new SinPower(m, this.magicNumber + 1), this.magicNumber + 1));
-        }else{
-            this.addToBot(new ApplyPowerAction(m, p, new SinPower(m, this.magicNumber), this.magicNumber));
-        }
+        this.addToBot(new ApplyPowerAction(m, p, new SinPower(m, this.magicNumber), this.magicNumber));
     }
 
     public AbstractCard makeCopy() {
