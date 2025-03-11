@@ -44,10 +44,10 @@
         </dependency>
         <dependency>
             <groupId>com.evacipated.cardcrawl</groupId>
-            <artifactId>ReplayTheSpire</artifactId>
+            <artifactId>TogetherInSpire</artifactId>
             <version>3.23.2</version>
             <scope>system</scope>
-            <systemPath>${Steam.path}/workshop/content/646570/1610173938/ReplayTheSpireMod.jar</systemPath>
+            <systemPath>${Steam.path}/workshop/content/646570/2384072973/TogetherInSpire.jar</systemPath>
         </dependency>
     </dependencies>
 

@@ -61,5 +61,13 @@
     "DESCRIPTIONS": [
       "每当你给予敌人 #ybenmod:罪孽 状态时，额外给予 #b1 层 #ybenmod:罪孽 。"
     ]
+  },
+
+  "BenMod:GoldenFleece": {
+    "NAME": "金羊毛",
+    "FLAVOR": "做个好梦。",
+    "DESCRIPTIONS": [
+      "若你的生命值等于或高于 #b50% ，在 #y休息 时回复所有生命。"
+    ]
   }
 }

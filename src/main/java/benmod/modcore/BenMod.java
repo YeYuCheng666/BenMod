@@ -147,6 +147,7 @@ public class BenMod implements EditCardsSubscriber, EditStringsSubscriber, EditR
         BaseMod.addRelic(new SoulBanner(), RelicType.SHARED);
         BaseMod.addRelic(new SoulBanner(), RelicType.SHARED);
         BaseMod.addRelic(new DemonSlayer(), RelicType.SHARED);
+        BaseMod.addRelic(new GoldenFleece(), RelicType.SHARED);
     }
 
     @Override
