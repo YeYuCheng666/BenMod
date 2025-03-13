@@ -69,5 +69,13 @@
     "DESCRIPTIONS": [
       "若你的生命值等于或高于 #b50% ，在 #y休息 时回复所有生命。"
     ]
+  },
+
+  "BenMod:SoulCalmingStone": {
+    "NAME": "镇魂石",
+    "FLAVOR": "勿要轻易挪动。",
+    "DESCRIPTIONS": [
+      "每次获得 #y格挡 时获得一层 #ybenmod:幽冥 。每回合开始时失去 #b1 点能量。"
+    ]
   }
 }

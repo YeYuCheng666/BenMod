@@ -1,11 +1,11 @@
 package benmod.cards;
 
 import benmod.helpers.ModHelper;
-import benmod.powers.SoulFlamePower;
 import benmod.powers.SpectralPower;
-import benmod.powers.StunnedPower;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
+import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -16,29 +16,29 @@ import basemod.abstracts.CustomCard;
 
 import static benmod.characters.SoulWizard.PlayerColorEnum.BENMOD_GOLDEN;
 
-public class SoulFlame extends CustomCard {
-    public static final String ID = ModHelper.makePath("SoulFlame");
+public class ForgettingSoup extends CustomCard {
+    public static final String ID = ModHelper.makePath("ForgettingSoup");
     private static final CardStrings CARD_STRINGS = CardCrawlGame.languagePack.getCardStrings(ID);
     private static final String NAME = CARD_STRINGS.NAME;
     private static final String IMG_PATH = "BenModResources/images/SkillCards/HardShield.png";
-    private static final int COST = 1;
+    private static final int COST = 0;
     private static final String DESCRIPTION = CARD_STRINGS.DESCRIPTION;
-    private static final CardType TYPE = CardType.POWER;
+    private static final CardType TYPE = CardType.SKILL;
     private static final CardColor COLOR = BENMOD_GOLDEN;
-    private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardRarity RARITY = CardRarity.RARE;
     private static final CardTarget TARGET = CardTarget.SELF;
 
-    public SoulFlame() {
+    public ForgettingSoup() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.baseMagicNumber = 5;
-        this.magicNumber = 5;
+        this.baseMagicNumber = 3;
+        this.magicNumber = 3;
     }
 
     @Override
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeMagicNumber(3);
+            this.upgradeMagicNumber(2);
         }
         this.rawDescription = CARD_STRINGS.UPGRADE_DESCRIPTION;
         this.initializeDescription();
@@ -46,8 +46,9 @@ public class SoulFlame extends CustomCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.addToBot(new ApplyPowerAction(p, p, new SpectralPower(p, -2), -2));
-        this.addToBot(new ApplyPowerAction(p, p, new SoulFlamePower(p, this.magicNumber), this.magicNumber));
+        this.addToBot(new ApplyPowerAction(p, p, new SpectralPower(p, -3), -3));
+        this.addToBot(new GainEnergyAction(2));
+        this.addToBot(new DrawCardAction(p, this.magicNumber));
     }
 
     @Override
@@ -56,7 +57,7 @@ public class SoulFlame extends CustomCard {
         if (!canUse) {
             return false;
         } else {
-            if (AbstractDungeon.player.getPower("BenMod:SpectralPower") == null ||AbstractDungeon.player.getPower("BenMod:SpectralPower").amount < 2) {
+            if (AbstractDungeon.player.getPower("BenMod:SpectralPower") == null ||AbstractDungeon.player.getPower("BenMod:SpectralPower").amount < 3) {
                 canUse = false;
             }
             return canUse;
@@ -64,6 +65,6 @@ public class SoulFlame extends CustomCard {
     }
 
     public AbstractCard makeCopy() {
-        return new SoulFlame();
+        return new ForgettingSoup();
     }
 }

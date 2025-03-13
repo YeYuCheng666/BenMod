@@ -1,6 +1,8 @@
 package benmod.cards;
 
 import benmod.helpers.ModHelper;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -9,6 +11,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import basemod.abstracts.CustomCard;
+import com.megacrit.cardcrawl.powers.WeakPower;
 
 import static benmod.characters.SoulWizard.PlayerColorEnum.BENMOD_GOLDEN;
 
@@ -45,7 +48,11 @@ public class RetreatToAdvance extends CustomCard {
             this.addToBot(new GainBlockAction(p, p, this.block));
         }
         else{
-            this.addToBot(new GainBlockAction(p, p, this.block - 4));
+            if (!this.upgraded){
+                this.addToBot(new GainBlockAction(p, p, 5));
+            }else{
+                this.addToBot(new GainBlockAction(p, p, 8));
+            }
         }
     }
 

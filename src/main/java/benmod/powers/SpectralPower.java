@@ -33,6 +33,13 @@ public class SpectralPower extends AbstractPower {
         this.updateDescription();
     }
 
+    public void stackPower(int stackAmount){
+        this.amount += stackAmount;
+        if (this.amount == 0) {
+            this.addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, "BenMod:SpectralPower"));
+        }
+    }
+
     public void wasHPLost(DamageInfo info, int damageAmount) {
         if (info.owner != null && info.owner != this.owner && info.type != DamageInfo.DamageType.HP_LOSS && info.type != DamageInfo.DamageType.THORNS && damageAmount > 0 && !AbstractDungeon.player.hasRelic("BenMod:SoulBanner")) {
             this.flash();

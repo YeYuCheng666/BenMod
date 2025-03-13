@@ -83,7 +83,6 @@ public class BenMod implements EditCardsSubscriber, EditStringsSubscriber, EditR
         BaseMod.addCard(new Trial());
         BaseMod.addCard(new DeadlyStrike());
         BaseMod.addCard(new SoulShield());
-        BaseMod.addCard(new SoulShield());
         BaseMod.addCard(new SoulShock());
         BaseMod.addCard(new Replacement());
         BaseMod.addCard(new HellForm());
@@ -134,6 +133,10 @@ public class BenMod implements EditCardsSubscriber, EditStringsSubscriber, EditR
         BaseMod.addCard(new MirrorSpell());
         BaseMod.addCard(new StealFromOthers());
         BaseMod.addCard(new MemoryModule());
+        BaseMod.addCard(new ForgettingSoup());
+        BaseMod.addCard(new Confession());
+        BaseMod.addCard(new Kowtow());
+        BaseMod.addCard(new SoulPressure());
     }
 
     @Override
@@ -145,9 +148,9 @@ public class BenMod implements EditCardsSubscriber, EditStringsSubscriber, EditR
         BaseMod.addRelic(new DevilOrder(), RelicType.SHARED);
         BaseMod.addRelic(new SoulBell(), RelicType.SHARED);
         BaseMod.addRelic(new SoulBanner(), RelicType.SHARED);
-        BaseMod.addRelic(new SoulBanner(), RelicType.SHARED);
         BaseMod.addRelic(new DemonSlayer(), RelicType.SHARED);
         BaseMod.addRelic(new GoldenFleece(), RelicType.SHARED);
+        BaseMod.addRelic(new SoulCalmingStone(), RelicType.SHARED);
     }
 
     @Override

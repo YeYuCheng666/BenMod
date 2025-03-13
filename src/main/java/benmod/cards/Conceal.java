@@ -26,7 +26,7 @@ public class Conceal extends CustomCard {
 
     public Conceal() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.block = this.baseBlock = 8;
+        this.block = this.baseBlock = 9;
         this.baseMagicNumber = 3;
         this.magicNumber = 3;
     }
@@ -35,7 +35,7 @@ public class Conceal extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeBlock(4);
+            this.upgradeBlock(3);
         }
         this.rawDescription = CARD_STRINGS.UPGRADE_DESCRIPTION;
         this.initializeDescription();
