@@ -480,5 +480,35 @@
     "NAME": "灵魂威压",
     "DESCRIPTION": "给予所有敌人 !M! 层 benmod:宽恕 和2层 虚弱 。",
     "UPGRADE_DESCRIPTION": "给予所有敌人 !M! 层 benmod:宽恕 和3层 虚弱 。"
+  },
+
+  "BenMod:Unpardonable": {
+    "NAME": "罪无可恕",
+    "DESCRIPTION": "造成3次 !D! 点伤害。 NL 给予 !M! 层 benmod:宽恕 。",
+    "UPGRADE_DESCRIPTION": "造成3次 !D! 点伤害。 NL 给予 !M! 层 benmod:宽恕 。"
+  },
+
+  "BenMod:Destroyer": {
+    "NAME": "无间炼狱",
+    "DESCRIPTION": "失去2层 benmod:幽冥 。 NL 给予 !M! 层 benmod:宽恕 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "失去2层 benmod:幽冥 。 NL 给予 !M! 层 benmod:宽恕 。 NL 消耗 。"
+  },
+
+  "BenMod:Outburst": {
+    "NAME": "迸发",
+    "DESCRIPTION": "每有一次攻击造成未被格挡的伤害，就给予 !M! 层 benmod:宽恕 。",
+    "UPGRADE_DESCRIPTION": "每有一次攻击造成未被格挡的伤害，就给予 !M! 层 benmod:宽恕 。"
+  },
+
+  "BenMod:DeathBook": {
+    "NAME": "生死簿",
+    "DESCRIPTION": "将一名敌人的 benmod:宽恕 层数翻倍。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "将一名敌人的 benmod:宽恕 层数翻倍。"
+  },
+
+  "BenMod:SoulLink": {
+    "NAME": "灵魂链接",
+    "DESCRIPTION": "给予 !M! 层 benmod:宽恕 。 NL 当目标死亡时，将其身上的 benmod:宽恕 层数移到一名随机敌人身上。",
+    "UPGRADE_DESCRIPTION": "给予 !M! 层 benmod:宽恕 。 NL 当目标死亡时，将其身上的 benmod:宽恕 层数移到一名随机敌人身上。"
   }
 }

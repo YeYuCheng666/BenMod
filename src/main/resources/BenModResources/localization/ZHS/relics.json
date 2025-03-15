@@ -77,5 +77,13 @@
     "DESCRIPTIONS": [
       "每次获得 #y格挡 时获得一层 #ybenmod:幽冥 。每回合开始时失去 #b1 点能量。"
     ]
+  },
+
+  "BenMod:LittleBuddha": {
+    "NAME": "小佛像",
+    "FLAVOR": "朝着它虔诚跪拜没准会有好事发生。",
+    "DESCRIPTIONS": [
+      "你每在同一回合内打出 #b3 张 #y攻击牌 ，给予所有敌人 #b2 层 #ybenmod:宽恕 。"
+    ]
   }
 }

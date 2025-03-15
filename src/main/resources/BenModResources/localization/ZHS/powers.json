@@ -114,7 +114,7 @@
   "BenMod:DeadlyRhythmPower": {
     "NAME": "致命节奏",
     "DESCRIPTIONS": [
-      "每有一次攻击造成未被格挡的伤害，就给予 #b",
+      "每当你造成未被格挡的 #y攻击 伤害，给予 #b",
       " 层 #y易伤 。"
     ]
   },
@@ -124,6 +124,21 @@
     "DESCRIPTIONS": [
       "在其回合开始时，减少 #b",
       " 点生命。"
+    ]
+  },
+
+  "BenMod:OutburstPower": {
+    "NAME": "迸发",
+    "DESCRIPTIONS": [
+      "每当你造成未被格挡的 #y攻击 伤害，给予所有敌人 #b",
+      " 层 #y宽恕 。"
+    ]
+  },
+
+  "BenMod:SoulLinkPower": {
+    "NAME": "灵魂链接",
+    "DESCRIPTIONS": [
+      "拥有此能力的敌人死亡时，将其身上的 #y宽恕 层数移到一名随机敌人身上。"
     ]
   }
 }
