@@ -142,6 +142,8 @@ public class BenMod implements EditCardsSubscriber, EditStringsSubscriber, EditR
         BaseMod.addCard(new Outburst());
         BaseMod.addCard(new DeathBook());
         BaseMod.addCard(new SoulLink());
+        BaseMod.addCard(new DangerSpot());
+        BaseMod.addCard(new BecomeBuddha());
     }
 
     @Override

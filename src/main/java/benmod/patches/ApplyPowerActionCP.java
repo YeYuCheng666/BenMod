@@ -21,5 +21,10 @@ public class ApplyPowerActionCP
             ++p.amount;
             ++__instance.amount;
         }
+        if (AbstractDungeon.player.hasPower("BenMod:BecomeBuddhaPower") && source != null && source.isPlayer && target != source && powerToApply.ID.equals("BenMod:ForgivenessPower")) {
+            AbstractDungeon.player.getPower("BenMod:BecomeBuddhaPower").flash();
+            ++p.amount;
+            ++__instance.amount;
+        }
     }
 }

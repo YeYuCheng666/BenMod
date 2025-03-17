@@ -370,8 +370,8 @@
 
   "BenMod:SelfMutilation": {
     "NAME": "自残",
-    "DESCRIPTION": "增加1张 伤口 到你的手牌。 NL 获得 [E] 。",
-    "UPGRADE_DESCRIPTION": "增加1张 伤口 到你的手牌。 NL 获得 [E] [E] 。"
+    "DESCRIPTION": "增加1张 *伤口 到你的手牌。 NL 获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "增加1张 *伤口 到你的手牌。 NL 获得 [E] [E] 。"
   },
 
   "BenMod:Punishment": {
@@ -388,8 +388,8 @@
 
   "BenMod:Incendies": {
     "NAME": "狱火焚身",
-    "DESCRIPTION": "增加1张 灼伤 到你的手牌。 NL 造成 !D! 点伤害。 NL 获得 !M! 层 benmod:幽冥 。",
-    "UPGRADE_DESCRIPTION": "增加1张 灼伤 到你的手牌。 NL 造成 !D! 点伤害。 NL 获得 !M! 层 benmod:幽冥 。"
+    "DESCRIPTION": "增加1张 *灼伤 到你的手牌。 NL 造成 !D! 点伤害。 NL 获得 !M! 层 benmod:幽冥 。",
+    "UPGRADE_DESCRIPTION": "增加1张 *灼伤 到你的手牌。 NL 造成 !D! 点伤害。 NL 获得 !M! 层 benmod:幽冥 。"
   },
 
   "BenMod:Absorb": {
@@ -510,5 +510,17 @@
     "NAME": "灵魂链接",
     "DESCRIPTION": "给予 !M! 层 benmod:宽恕 。 NL 当目标死亡时，将其身上的 benmod:宽恕 层数移到一名随机敌人身上。",
     "UPGRADE_DESCRIPTION": "给予 !M! 层 benmod:宽恕 。 NL 当目标死亡时，将其身上的 benmod:宽恕 层数移到一名随机敌人身上。"
+  },
+
+  "BenMod:DangerSpot": {
+    "NAME": "鬼门关",
+    "DESCRIPTION": "获得2次 !B! 点 格挡 。 NL 给予所有敌人2次 !M! 层 benmod:宽恕 。",
+    "UPGRADE_DESCRIPTION": "获得2次 !B! 点 格挡 。 NL 给予所有敌人2次 !M! 层 benmod:宽恕 。"
+  },
+
+  "BenMod:BecomeBuddha": {
+    "NAME": "立地成佛",
+    "DESCRIPTION": "每当你给予敌人 benmod:宽恕 状态时，额外给予 !M! 层 benmod:宽恕 。",
+    "UPGRADE_DESCRIPTION": "每当你给予敌人 benmod:宽恕 状态时，额外给予 !M! 层 benmod:宽恕 。"
   }
 }

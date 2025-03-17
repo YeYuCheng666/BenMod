@@ -140,5 +140,13 @@
     "DESCRIPTIONS": [
       "拥有此能力的敌人死亡时，将其身上的 #y宽恕 层数移到一名随机敌人身上。"
     ]
+  },
+
+  "BenMod:BecomeBuddhaPower": {
+    "NAME": "立地成佛",
+    "DESCRIPTIONS": [
+      "每当你给予敌人 #y宽恕 状态时，额外给予 #b",
+      " 层 #y宽恕 。"
+    ]
   }
 }
