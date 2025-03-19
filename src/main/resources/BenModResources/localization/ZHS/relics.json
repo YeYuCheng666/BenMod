@@ -85,5 +85,29 @@
     "DESCRIPTIONS": [
       "你每在同一回合内打出 #b3 张 #y攻击牌 ，给予所有敌人 #b2 层 #ybenmod:宽恕 。"
     ]
+  },
+
+  "BenMod:EscapePod": {
+    "NAME": "逃生舱",
+    "FLAVOR": "三十六计，走为上策。",
+    "DESCRIPTIONS": [
+      "右键此遗物立刻获得 #b50 点 #y格挡 （仅能起效一次）。"
+    ]
+  },
+
+  "BenMod:ForceFieldShield": {
+    "NAME": "力场盾",
+    "FLAVOR": "令人安心的高科技玩意儿。",
+    "DESCRIPTIONS": [
+      "当你的生命值等于或低于 #b25% 时，每回合开始时获得 #b10 点 #y 格挡 。"
+    ]
+  },
+
+  "BenMod:BassDrum": {
+    "NAME": "大鼓",
+    "FLAVOR": "用力击打的话能够发出洪亮的声音。",
+    "DESCRIPTIONS": [
+      "当你的生命值等于或高于 #b70% 时，每回合开始时获得一点能量。"
+    ]
   }
 }
