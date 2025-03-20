@@ -10,7 +10,7 @@ public class PunishmentAction extends AbstractGameAction {
     private DamageInfo info;
 
     public PunishmentAction(AbstractCreature target, DamageInfo info) {
-        this.actionType = ActionType.BLOCK;
+        this.actionType = ActionType.ENERGY;
         this.target = target;
         this.info = info;
     }

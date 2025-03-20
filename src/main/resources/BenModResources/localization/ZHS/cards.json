@@ -528,5 +528,23 @@
     "NAME": "魂飞魄散",
     "DESCRIPTION": "你每有一张手牌就给予所有敌人一层 benmod:罪孽 。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": " 保留 。 NL 你每有一张手牌就给予所有敌人一层 benmod:罪孽 。 NL 消耗 。"
+  },
+
+  "BenMod:SneakyAttack": {
+    "NAME": "偷袭",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL 如果敌人有 benmod:宽恕 状态，给予1层 benmod:宽恕 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL 如果敌人有 benmod:宽恕 状态，给予1层 benmod:宽恕 。"
+  },
+
+  "BenMod:BounceBack": {
+    "NAME": "重整旗鼓",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 消耗 手牌中的所有状态牌和诅咒牌，每张获得 !M! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。 NL 消耗 手牌中的所有状态牌和诅咒牌，每张获得 !M! 点 格挡 。"
+  },
+
+  "BenMod:Compassion": {
+    "NAME": "悲悯",
+    "DESCRIPTION": "在你的回合结束时，你失去1点生命，给予所有敌人 !M! 层 benmod:宽恕 。",
+    "UPGRADE_DESCRIPTION": "在你的回合结束时，你失去1点生命，给予所有敌人 !M! 层 benmod:宽恕 。"
   }
 }

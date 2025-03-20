@@ -148,5 +148,21 @@
       "每当你给予敌人 #y宽恕 状态时，额外给予 #b",
       " 层 #y宽恕 。"
     ]
+  },
+
+  "BenMod:RecklessPower": {
+    "NAME": "鲁莽",
+    "DESCRIPTIONS": [
+      "你每打出一张 #y攻击牌，获得 #b",
+      " 点 #y力量 。"
+    ]
+  },
+
+  "BenMod:CompassionPower": {
+    "NAME": "悲悯",
+    "DESCRIPTIONS": [
+      "在你的回合结束时，失去 #b1 点生命并给予所有敌人 #b",
+      " 层 #y宽恕 。"
+    ]
   }
 }

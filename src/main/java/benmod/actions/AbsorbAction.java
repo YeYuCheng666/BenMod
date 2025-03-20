@@ -12,7 +12,7 @@ public class AbsorbAction extends AbstractGameAction {
     private DamageInfo info;
 
     public AbsorbAction(AbstractCreature target, DamageInfo info) {
-        this.actionType = ActionType.BLOCK;
+        this.actionType = ActionType.POWER;
         this.target = target;
         this.info = info;
     }
