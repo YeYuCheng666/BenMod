@@ -1,11 +1,12 @@
 package benmod.cards;
 
+import benmod.actions.SoulReturningAction;
 import benmod.helpers.ModHelper;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
-import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
-import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.defect.AllCostToHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.status.Wound;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.cards.DamageInfo.DamageType;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
@@ -14,30 +15,28 @@ import basemod.abstracts.CustomCard;
 
 import static benmod.characters.SoulWizard.PlayerColorEnum.BENMOD_GOLDEN;
 
-public class SelfMutilation extends CustomCard {
-    public static final String ID = ModHelper.makePath("SelfMutilation");
+public class SoulReturning extends CustomCard {
+    public static final String ID = ModHelper.makePath("SoulReturning");
     private static final CardStrings CARD_STRINGS = CardCrawlGame.languagePack.getCardStrings(ID);
     private static final String NAME = CARD_STRINGS.NAME;
-    private static final String IMG_PATH = "BenModResources/images/SkillCards/HardShield.png";
-    private static final int COST = 0;
+    private static final String IMG_PATH = "BenModResources/images/AttackCards/SharpBlade.png";
+    private static final int COST = 3;
     private static final String DESCRIPTION = CARD_STRINGS.DESCRIPTION;
-    private static final CardType TYPE = CardType.SKILL;
+    private static final CardType TYPE = CardType.ATTACK;
     private static final CardColor COLOR = BENMOD_GOLDEN;
-    private static final CardRarity RARITY = CardRarity.COMMON;
-    private static final CardTarget TARGET = CardTarget.SELF;
+    private static final CardRarity RARITY = CardRarity.RARE;
+    private static final CardTarget TARGET = CardTarget.ENEMY;
 
-    public SelfMutilation() {
+    public SoulReturning() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.baseMagicNumber = 1;
-        this.magicNumber = 1;
-        this.cardsToPreview = new Wound();
+        this.damage = this.baseDamage = 18;
     }
 
     @Override
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeMagicNumber(1);
+            this.upgradeBaseCost(2);
         }
         this.rawDescription = CARD_STRINGS.UPGRADE_DESCRIPTION;
         this.initializeDescription();
@@ -45,11 +44,11 @@ public class SelfMutilation extends CustomCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.addToBot(new MakeTempCardInHandAction(new Wound(), 1));
-        this.addToBot(new GainEnergyAction(this.magicNumber));
+        this.addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageType.NORMAL)));
+        this.addToBot(new SoulReturningAction());
     }
 
     public AbstractCard makeCopy() {
-        return new SelfMutilation();
+        return new SoulReturning();
     }
 }

@@ -148,6 +148,12 @@ public class BenMod implements EditCardsSubscriber, EditStringsSubscriber, EditR
         BaseMod.addCard(new SneakyAttack());
         BaseMod.addCard(new BounceBack());
         BaseMod.addCard(new Compassion());
+        BaseMod.addCard(new Unyielding());
+        BaseMod.addCard(new Confusion());
+        BaseMod.addCard(new DeadRiver());
+        BaseMod.addCard(new SoulBarrier());
+        BaseMod.addCard(new Substitution());
+        BaseMod.addCard(new SoulReturning());
     }
 
     @Override
@@ -166,6 +172,7 @@ public class BenMod implements EditCardsSubscriber, EditStringsSubscriber, EditR
         BaseMod.addRelic(new EscapePod(), RelicType.SHARED);
         BaseMod.addRelic(new ForceFieldShield(), RelicType.SHARED);
         BaseMod.addRelic(new BassDrum(), RelicType.SHARED);
+        BaseMod.addRelic(new BluePellets(), RelicType.SHARED);
     }
 
     @Override

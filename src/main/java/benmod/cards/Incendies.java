@@ -9,6 +9,7 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.cards.DamageInfo.DamageType;
 import com.megacrit.cardcrawl.cards.status.Burn;
+import com.megacrit.cardcrawl.cards.status.Wound;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
@@ -34,6 +35,7 @@ public class Incendies extends CustomCard {
         this.damage = this.baseDamage = 15;
         this.baseMagicNumber = 2;
         this.magicNumber = 2;
+        this.cardsToPreview = new Burn();
     }
 
     @Override
